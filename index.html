@@ -1,24 +1,66 @@
 <h1>Hello World!<h1
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Página</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha Página Bonita</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    color:#333;
+}
+
+p{
+    color:#666;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#4facfe;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0077ff;
+}
+</style>
+
 </head>
 <body>
 
-    <h1>Olá, mundo!</h1>
-    <p>Esta é minha primeira página em HTML.</p>
+<div class="container">
+<h1>🚀 Minha Página</h1>
+<p>Essa é uma página simples e bonita feita com HTML e CSS.</p>
 
-    <h2>Lista de coisas que gosto:</h2>
-    <ul>
-        <li>Programação</li>
-        <li>Jogos</li>
-        <li>Tecnologia</li>
-    </ul>
+<button onclick="alert('Olá! Você clicou no botão 😄')">
+Clique aqui
+</button>
 
-    <p>Visite o <a href="https://www.google.com">Google</a>.</p>
+</div>
 
 </body>
 </html>
